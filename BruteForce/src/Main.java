@@ -1,12 +1,11 @@
 
-import java.util.*;
 import java.io.*;
-import static java.lang.System.*;
+import javax.swing.*;
 
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        String a = new Scanner(in).nextLine();
+        String a = JOptionPane.showInputDialog("Password:");
         File file = new File(System.getProperty("user.dir") + "\\src\\words");
         BufferedReader reader = new BufferedReader(new FileReader(file));
 
