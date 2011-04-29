@@ -31,7 +31,12 @@ public class Main {
                     }
                 }
             }
+            String t123 = temp + "123";
             if (temp.equalsIgnoreCase(a)) {
+                pass = temp;
+                break;
+            }
+            if (t123.equalsIgnoreCase(a)) {
                 pass = temp;
                 break;
             }
